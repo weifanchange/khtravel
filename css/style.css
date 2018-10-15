@@ -1,0 +1,215 @@
+body{
+    font-family: Montserrat,Helvetica,arial,Microsoft JhengHei,"微軟正黑體",sans-serif;
+}
+/* hero */
+.hero{
+    background: url('../img/Hero.png');
+    width: 1024px;
+    height: 380px;
+    margin:0px auto;
+}
+.title{
+    font-size: 40px;
+    color: #ffffff;
+    width: 245px;
+    position: relative;
+    left: 380.5px;
+    top: 89px;
+}
+#selectArea{
+    display:block;
+    width: 452px;
+    height: 48px;
+    background:rgba(255, 255, 255, 0.7);
+    border-radius: 3px;
+    border:3px solid #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    left: 293px;
+    top: 185px;
+}
+.hotArea{
+    display:block;
+    background: #ffffff;
+    width: 800px;
+    height: 112px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 3px 0px rgba(0,2,0,0.2);
+    position: relative;
+    left: 112px;
+    top: 264px;
+}
+.hotArea p{
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+    left:26px;
+    top:20px;
+}
+.hotAreaBtn{
+    display: inline-block;
+    width: 130px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    color:#ffffff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    margin: 0px 15px;
+    position: relative;
+    top: 34px;
+
+}
+.hotAreaBtn:nth-child(1){background: #8A82CC;margin-left:51px;}
+.hotAreaBtn:nth-child(2){background: #FFA782;}
+.hotAreaBtn:nth-child(3){background: #F5D105;}
+.hotAreaBtn:nth-child(4){background: #559AC8;}
+/* content */
+.content{
+    box-sizing:border-box;
+    width: 1024px;
+    margin:0 auto;
+    /* border: 1px solid red; */
+    padding: 0 27px;
+}
+/* sideLine */
+.sideLine{
+    box-sizing: border-box;
+    width: 900px;
+    border-top: 1px dashed #559AC8; 
+    margin: 133px auto 76px auto;
+}
+.sideArrow{
+    position: relative;
+    left:438px;
+    background: url("../img/icons_down.png") no-repeat;
+    width: 24px;
+    height: 24px;
+}
+.titleArea{
+    font-size: 36px;
+    color: #8A82CC;
+    text-align: center;
+    margin-bottom: 6px;
+}
+.card-box{
+    width: 464px;
+    height: 273px;
+    margin: 18px 8px;
+    /* border: 1px solid #000000; */
+    position: relative;
+    display: inline-block;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    /* font-size: 16px; */
+}
+.card-img{
+    background-size: 100%;
+    background-position: center;
+    position: relative;
+    width: 464px;
+    height: 155px;
+    color: #ffffff;
+}
+.card-img h4{
+    font-size: 24px;
+    position: absolute;
+    left: 22px;
+    bottom: 14px;
+}
+.card-img p{
+    position: absolute;
+    right: 24px;
+    bottom: 11px;
+}
+.openTime:before{content: url(../img/icons_clock.png);}
+.address:before{content: url(../img/icons_pin.png);}
+.tel:before{content: url(../img/icons_phone.png);}
+.ticket:before{content: url(../img/icons_tag.png);}
+.openTime:before,
+.address:before,
+.tel:before,
+.ticket:before{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding: 0 9px 0 23px;
+}
+.openTime, .address, .tel{
+    position: relative;
+    padding-top: 16px;
+    height: 16px;
+}
+.card-info .ticket{
+    position: absolute;
+    right:24px;
+    bottom: 19px;
+}
+/* back to top */
+.back{
+    width: 1024px;
+    height: 24px;
+    /* border: 1px solid #000; */
+    margin: 0px auto;
+    position: relative;
+}
+.back a{
+    position: relative;
+    display: block;
+    width: 24px;
+    height: 24px;
+    left:972px;
+    top:-42px;
+    /* border: 1px solid red; */
+}
+/* pageList */
+.pageList{
+    width: 1024px;
+    /* border: 1px solid #000; */
+    margin: 28px auto 39px auto;
+    text-align: center;
+}
+.pageList a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    color: #4A4A4A;
+
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    /* border:1px solid #000; */
+
+    margin: 0px 4px;
+}
+.pageList .disable{
+    pointer-events: none;
+    color: rgba(73,73,73,0.50);
+}
+.pageList a:first-child,
+.pageList a:last-child
+{
+    width: 50px;
+    margin: 0px 18px;
+}
+/* footer */
+.footer{
+    width: 100%;
+    min-width: 1024px;
+    height: 90px;
+    background: #559AC8;
+    position:relative;
+    text-align: center;
+    font-size: 14px;
+}
+.footer>p:nth-child(1){
+    padding-top: 25px;
+    color:#ffffff;
+}
+.footer>p:nth-child(2){
+    margin-top:14px;
+    color:#FFD366;
+}
